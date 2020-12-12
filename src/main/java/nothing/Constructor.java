@@ -1,18 +1,21 @@
 package nothing;
 
 public class Constructor {
-	int x;
 	
-	//Create a constructor method
-	public  Constructor(int y){
-	int x=y;
+
+int x;
+
+//Create a constructor method
+public  Constructor(){
+	int x=5;
+	System.out.println(x);
 	}
 	
 	
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		
-		Constructor obj = new Constructor(5);
-		System.out.println(obj.x);
+	Constructor obj = new Constructor();
+		
 	}
 
 }
